@@ -1,0 +1,48 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 1rem;
+  color: #ecf0f1;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #3498db;
+}
+
+.page {
+  padding: 2rem;
+}
+
+.home, .about, .projects, .contact {
+  background: #ecf0f1;
+  border-radius: 8px;
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
